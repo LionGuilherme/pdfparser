@@ -227,7 +227,7 @@ class PDFObject
         return $sections;
     }
 
-    private function getDefaultFont(Page $page = null): Font
+    private function getDefaultFont(?Page $page = null): Font
     {
         $fonts = [];
         if (null !== $page) {

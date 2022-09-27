@@ -68,7 +68,7 @@ class RawDataParser
     /**
      * @param array $cfg Configuration array, default is []
      */
-    public function __construct($cfg = [], Config $config = null)
+    public function __construct($cfg = [], ?Config $config = null)
     {
         // merge given array with default values
         $this->cfg = array_merge($this->cfg, $cfg);
